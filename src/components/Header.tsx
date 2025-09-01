@@ -46,19 +46,19 @@ const Header = () => {
             </div>
             
             <nav className="hidden md:flex items-center space-x-8">
-              <Link to="/features" className="text-foreground hover:text-primary transition-smooth font-medium">
+              <Link to="/features" className="text-foreground hover:text-primary transition-smooth font-semibold">
                 Features
               </Link>
-              <Link to="/ai-features" className="text-foreground hover:text-primary transition-smooth font-medium">
+              <Link to="/ai-features" className="text-foreground hover:text-primary transition-smooth font-semibold">
                 AI Features
               </Link>
-              <Link to="/benefits" className="text-foreground hover:text-primary transition-smooth font-medium">
+              <Link to="/benefits" className="text-foreground hover:text-primary transition-smooth font-semibold">
                 Benefits
               </Link>
-              <Link to="/testimonials" className="text-foreground hover:text-primary transition-smooth font-medium">
-                Testimonials
+              <Link to="/future-vision" className="text-foreground hover:text-primary transition-smooth font-semibold">
+                Future Vision
               </Link>
-              <Link to="/about" className="text-foreground hover:text-primary transition-smooth font-medium">
+              <Link to="/about" className="text-foreground hover:text-primary transition-smooth font-semibold">
                 About
               </Link>
             </nav>

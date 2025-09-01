@@ -8,59 +8,59 @@
 
 @layer base {
   :root {
-    /* Ayurveda Color Palette */
-    --background: 42 25% 97%; /* Warm beige background */
-    --foreground: 30 15% 15%; /* Deep earth brown */
+    /* Ayurveda Color Palette - Improved Readability */
+    --background: 42 25% 98%; /* Slightly lighter background */
+    --foreground: 30 20% 12%; /* Much darker for better readability */
 
     --card: 0 0% 100%;
-    --card-foreground: 30 15% 15%;
+    --card-foreground: 30 20% 12%; /* Darker text on cards */
 
     --popover: 0 0% 100%;
-    --popover-foreground: 30 15% 15%;
+    --popover-foreground: 30 20% 12%;
 
     /* Herbal Green - Primary healing color */
-    --primary: 122 39% 49%; /* #4CAF50 Herbal Green */
+    --primary: 122 39% 45%; /* Slightly darker for better contrast */
     --primary-foreground: 0 0% 100%;
-    --primary-light: 122 39% 60%;
-    --primary-dark: 122 39% 35%;
+    --primary-light: 122 39% 55%;
+    --primary-dark: 122 39% 30%;
 
     /* Saffron - Sacred color */
-    --saffron: 30 100% 60%; /* #FF9933 Saffron */
+    --saffron: 30 95% 55%; /* Slightly darker for better readability */
     --saffron-foreground: 0 0% 100%;
-    --saffron-light: 30 100% 70%;
+    --saffron-light: 30 95% 65%;
 
     /* Earth tones */
-    --secondary: 42 25% 92%; /* Light beige */
-    --secondary-foreground: 30 15% 25%;
+    --secondary: 42 25% 94%; /* Light beige */
+    --secondary-foreground: 30 20% 20%; /* Much darker text */
 
-    --muted: 42 20% 90%;
-    --muted-foreground: 30 10% 45%;
+    --muted: 42 20% 92%;
+    --muted-foreground: 30 15% 35%; /* Darker for better readability */
 
-    --accent: 35 45% 85%; /* Warm cream */
-    --accent-foreground: 30 15% 20%;
+    --accent: 35 45% 88%; /* Warm cream */
+    --accent-foreground: 30 20% 15%; /* Much darker text */
 
     /* Healing colors */
-    --healing: 122 25% 85%; /* Soft sage green */
-    --healing-foreground: 122 39% 25%;
+    --healing: 122 25% 87%; /* Soft sage green */
+    --healing-foreground: 122 39% 20%; /* Darker text on healing backgrounds */
 
-    --earth: 25 30% 65%; /* Earth brown */
+    --earth: 25 35% 60%; /* Slightly darker earth brown */
     --earth-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84.2% 55%; /* Slightly darker for accessibility */
     --destructive-foreground: 210 40% 98%;
 
-    --border: 42 20% 85%;
-    --input: 42 20% 92%;
-    --ring: 122 39% 49%;
+    --border: 42 20% 82%; /* Slightly darker border */
+    --input: 42 20% 94%;
+    --ring: 122 39% 45%;
 
     --radius: 0.75rem;
 
-    /* Gradients */
+    /* Gradients with better contrast */
     --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-light)));
     --gradient-saffron: linear-gradient(135deg, hsl(var(--saffron)), hsl(var(--saffron-light)));
     --gradient-earth: linear-gradient(135deg, hsl(var(--earth)), hsl(var(--accent)));
     --gradient-healing: linear-gradient(135deg, hsl(var(--healing)), hsl(var(--secondary)));
-    --gradient-hero: linear-gradient(135deg, hsl(var(--primary) / 0.9), hsl(var(--saffron) / 0.8));
+    --gradient-hero: linear-gradient(135deg, hsl(var(--primary) / 0.92), hsl(var(--saffron) / 0.85));
 
     /* Shadows */
     --shadow-soft: 0 4px 20px hsl(var(--primary) / 0.08);
@@ -72,44 +72,44 @@
     --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
 
     /* Sidebar (keeping for compatibility) */
-    --sidebar-background: 42 25% 97%;
-    --sidebar-foreground: 30 15% 15%;
-    --sidebar-primary: 122 39% 49%;
+    --sidebar-background: 42 25% 98%;
+    --sidebar-foreground: 30 20% 12%;
+    --sidebar-primary: 122 39% 45%;
     --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 35 45% 85%;
-    --sidebar-accent-foreground: 30 15% 20%;
-    --sidebar-border: 42 20% 85%;
-    --sidebar-ring: 122 39% 49%;
+    --sidebar-accent: 35 45% 88%;
+    --sidebar-accent-foreground: 30 20% 15%;
+    --sidebar-border: 42 20% 82%;
+    --sidebar-ring: 122 39% 45%;
   }
 
   .dark {
-    --background: 30 15% 8%;
-    --foreground: 42 25% 95%;
+    --background: 30 15% 6%; /* Darker background */
+    --foreground: 42 25% 96%; /* Lighter text for better contrast */
 
-    --card: 30 15% 10%;
-    --card-foreground: 42 25% 95%;
+    --card: 30 15% 8%;
+    --card-foreground: 42 25% 96%; /* Better contrast on cards */
 
-    --popover: 30 15% 8%;
-    --popover-foreground: 42 25% 95%;
+    --popover: 30 15% 6%;
+    --popover-foreground: 42 25% 96%;
 
-    --primary: 122 39% 55%;
+    --primary: 122 39% 60%; /* Brighter primary for dark theme */
     --primary-foreground: 30 15% 8%;
 
-    --secondary: 30 15% 12%;
-    --secondary-foreground: 42 25% 90%;
+    --secondary: 30 15% 10%;
+    --secondary-foreground: 42 25% 92%; /* Better readability */
 
-    --muted: 30 10% 15%;
-    --muted-foreground: 42 15% 65%;
+    --muted: 30 10% 12%;
+    --muted-foreground: 42 15% 75%; /* Much lighter for better readability */
 
-    --accent: 30 15% 15%;
-    --accent-foreground: 42 25% 90%;
+    --accent: 30 15% 12%;
+    --accent-foreground: 42 25% 92%;
 
-    --destructive: 0 62.8% 30.6%;
+    --destructive: 0 62.8% 50%; /* Brighter for visibility */
     --destructive-foreground: 210 40% 98%;
 
-    --border: 30 15% 20%;
-    --input: 30 15% 15%;
-    --ring: 122 39% 55%;
+    --border: 30 15% 18%; /* Slightly lighter border */
+    --input: 30 15% 12%;
+    --ring: 122 39% 60%;
   }
 }
 
@@ -167,6 +167,22 @@
 
   .transition-bounce {
     transition: var(--transition-bounce);
+  }
+
+  /* Improved text readability utilities */
+  .text-readable {
+    color: hsl(var(--foreground));
+    font-weight: 500;
+  }
+
+  .text-readable-light {
+    color: hsl(var(--muted-foreground));
+    font-weight: 500;
+  }
+
+  .text-high-contrast {
+    color: hsl(var(--foreground));
+    font-weight: 600;
   }
 
   /* Animation utilities */

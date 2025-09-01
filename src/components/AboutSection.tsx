@@ -5,23 +5,23 @@ const AboutSection = () => {
   const values = [
     {
       icon: Heart,
-      title: "Compassionate Care",
-      description: "Every feature is designed with patient wellbeing at its core"
+      title: "Efficiency & Safety",
+      description: "Automating routine tasks while ensuring patient safety through emergency alert systems"
     },
     {
       icon: Brain,
-      title: "Scientific Innovation",
-      description: "Bridging ancient wisdom with cutting-edge AI technology"
+      title: "AI-Driven Insights",
+      description: "Empowering practitioners with intelligent Dosha analysis and outcome prediction tools"
     },
     {
       icon: Leaf,
-      title: "Natural Healing",
-      description: "Supporting the body's natural healing processes through Ayurveda"
+      title: "Traditional Authenticity",
+      description: "Preserving Panchakarma authenticity while making it future-ready with technology"
     },
     {
       icon: Users,
-      title: "Community Focus",
-      description: "Building connections between patients, practitioners, and healing communities"
+      title: "Holistic Ecosystem",
+      description: "Creating connections between patients, practitioners, and healing communities worldwide"
     }
   ];
 
@@ -37,19 +37,19 @@ const AboutSection = () => {
             </div>
             
             <h2 className="text-4xl md:text-5xl font-bold mb-6 text-white leading-tight">
-              Blending Tradition with Innovation
+              Bridging Ancient Wisdom with Modern Technology
             </h2>
             
-            <p className="text-xl text-white/90 mb-8 leading-relaxed">
-              We believe that the timeless wisdom of Ayurveda, when enhanced by modern technology, 
-              can create unprecedented healing experiences. Our platform preserves the essence of 
-              traditional practice while making it accessible, efficient, and data-driven.
+            <p className="text-xl text-white/96 mb-8 leading-relaxed">
+              The growing demand for Panchakarma and Ayurveda-based therapies has highlighted the need for a dedicated, 
+              technology-driven management system. Most centers currently rely on manual scheduling, fragmented documentation, 
+              and limited digital engagement, leading to inefficiencies and patient dissatisfaction.
             </p>
 
-            <p className="text-lg text-white/80 mb-10 leading-relaxed">
-              Founded by a team of Ayurvedic practitioners, technologists, and healthcare innovators, 
-              we're committed to making holistic healthcare more effective, accessible, and personalized 
-              than ever before.
+            <p className="text-lg text-white/92 mb-10 leading-relaxed">
+              Our comprehensive digital platform is designed specifically for Panchakarma and Ayurveda therapy centers. 
+              We integrate modern IT solutions with traditional healing processes to streamline operations, empower practitioners, 
+              and enhance patient outcomes while preserving the authenticity of ancient wisdom.
             </p>
 
             <Button variant="contact" size="lg" className="bg-white text-earth hover:bg-white/90">
@@ -72,7 +72,7 @@ const AboutSection = () => {
                       <Icon className="w-6 h-6 text-white" />
                     </div>
                     <h3 className="text-lg font-semibold mb-3 text-white">{value.title}</h3>
-                    <p className="text-white/80 text-sm leading-relaxed">{value.description}</p>
+                    <p className="text-white/92 text-sm leading-relaxed">{value.description}</p>
                   </div>
                 );
               })}
@@ -82,22 +82,26 @@ const AboutSection = () => {
 
         {/* Statistics */}
         <div className="mt-20 pt-16 border-t border-white/20">
+          <div className="text-center mb-8">
+            <h3 className="text-2xl font-bold text-white mb-2">Platform Impact</h3>
+            <p className="text-white/90">Transforming Panchakarma centers worldwide</p>
+          </div>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">10+</div>
-              <div className="text-white/80">Years Research</div>
+              <div className="text-4xl md:text-5xl font-bold text-white mb-2">50+</div>
+              <div className="text-white/90">Therapy Centers</div>
             </div>
             <div>
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">500+</div>
-              <div className="text-white/80">Practitioners</div>
+              <div className="text-white/90">Practitioners</div>
             </div>
             <div>
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">15K+</div>
-              <div className="text-white/80">Patients Served</div>
+              <div className="text-white/90">Patients Managed</div>
             </div>
             <div>
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">50+</div>
-              <div className="text-white/80">Research Papers</div>
+              <div className="text-4xl md:text-5xl font-bold text-white mb-2">98%</div>
+              <div className="text-white/90">Efficiency Improvement</div>
             </div>
           </div>
         </div>

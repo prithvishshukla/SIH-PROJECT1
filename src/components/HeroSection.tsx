@@ -37,17 +37,17 @@ const HeroSection = () => {
           
           {/* Main Heading */}
           <h1 className="text-5xl md:text-7xl font-bold text-white mb-6 animate-slide-up text-balance leading-tight">
-            Restore Your 
-            <span className="text-saffron"> Body</span>,
+            Complete 
+            <span className="text-saffron">Panchakarma</span>
             <br />
-            <span className="text-primary-light">Mind</span> & 
-            <span className="text-white">Soul</span>
+            <span className="text-primary-light">Management</span> 
+            <span className="text-white">Platform</span>
           </h1>
           
           {/* Subtitle */}
-          <p className="text-xl md:text-2xl text-white/90 mb-12 animate-slide-up max-w-3xl mx-auto leading-relaxed" style={{ animationDelay: '0.2s' }}>
-            Experience the perfect blend of ancient Ayurvedic wisdom and modern technology. 
-            Comprehensive Panchakarma therapy management with AI-powered insights.
+          <p className="text-xl md:text-2xl text-white/95 mb-12 animate-slide-up max-w-3xl mx-auto leading-relaxed font-medium" style={{ animationDelay: '0.2s' }}>
+            Streamline operations, enhance patient outcomes, and bridge traditional Ayurvedic healing with cutting-edge technology. 
+            From automated scheduling to AI-powered Dosha analysis.
           </p>
           
           {/* CTA Buttons */}
@@ -65,20 +65,20 @@ const HeroSection = () => {
           {/* Stats */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 mt-16 animate-fade-in" style={{ animationDelay: '0.6s' }}>
             <div className="text-center">
-              <div className="text-3xl font-bold text-saffron mb-2">5000+</div>
-              <div className="text-white/80 text-sm">Patients Healed</div>
+              <div className="text-3xl font-bold text-saffron mb-2">15K+</div>
+              <div className="text-white/95 text-sm font-medium">Patients Managed</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-primary-light mb-2">150+</div>
-              <div className="text-white/80 text-sm">Practitioners</div>
+              <div className="text-3xl font-bold text-primary-light mb-2">500+</div>
+              <div className="text-white/95 text-sm font-medium">Practitioners</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-white mb-2">25+</div>
-              <div className="text-white/80 text-sm">Clinics</div>
+              <div className="text-3xl font-bold text-white mb-2">50+</div>
+              <div className="text-white/95 text-sm font-medium">Therapy Centers</div>
             </div>
             <div className="text-center">
-              <div className="text-3xl font-bold text-saffron mb-2">95%</div>
-              <div className="text-white/80 text-sm">Success Rate</div>
+              <div className="text-3xl font-bold text-saffron mb-2">98%</div>
+              <div className="text-white/95 text-sm font-medium">Efficiency Gain</div>
             </div>
           </div>
         </div>

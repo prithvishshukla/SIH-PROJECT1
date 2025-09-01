@@ -9,11 +9,11 @@ const BenefitsSection = () => {
       color: "text-saffron",
       bgColor: "bg-saffron/10",
       features: [
-        "Personalized treatment plans based on individual Dosha",
-        "24/7 access to health records and progress tracking", 
-        "Virtual consultations with certified Ayurvedic doctors",
-        "Medication reminders and lifestyle recommendations",
-        "Progress visualization with before/after comparisons"
+        "Clear instructions and timely notifications improve adherence and satisfaction",
+        "Community support platform boosts motivation and trust through shared experiences",
+        "Emergency alert system ensures immediate safety and medical response",
+        "Personalized dashboards with visual progress tracking and recovery patterns",
+        "Pre and post comparison photos for motivation and visual evidence of recovery"
       ]
     },
     {
@@ -22,24 +22,24 @@ const BenefitsSection = () => {
       color: "text-primary",
       bgColor: "bg-primary/10",
       features: [
-        "AI-assisted diagnosis and treatment recommendations",
-        "Comprehensive patient management system",
-        "Automated appointment scheduling and billing",
-        "Research insights from aggregated patient data",
-        "Continuing education and certification tracking"
+        "Simplified scheduling and digital notes reduce administrative burden significantly",
+        "AI support tools improve diagnosis accuracy and save consultation time",
+        "Real-time patient data access enhances clinical decision-making capabilities",
+        "Automated therapy templates for standardized Panchakarma treatments",
+        "Comprehensive patient feedback system for continuous care improvement"
       ]
     },
     {
-      category: "For Clinics",
+      category: "For Clinics & Centers",
       icon: Building2, 
       color: "text-earth",
       bgColor: "bg-earth/10",
       features: [
-        "Complete clinic management and operations dashboard",
-        "Staff scheduling and resource optimization",
-        "Financial reporting and revenue analytics",
-        "Quality assurance and compliance monitoring", 
-        "Multi-location management capabilities"
+        "Streamlined operations lead to higher efficiency and reduced operational costs",
+        "Improved patient satisfaction leads to better retention and referral rates",
+        "Data-driven insights enable long-term quality improvement initiatives",
+        "Smart bed allocation optimizes resource utilization and patient flow",
+        "Comprehensive management dashboard for multi-location oversight"
       ]
     }
   ];
@@ -49,10 +49,10 @@ const BenefitsSection = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-bold mb-6 text-foreground">
-            Benefits for Everyone
+            Comprehensive Benefits & Impact
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Our platform creates value across the entire Ayurvedic healthcare ecosystem
+            Our platform creates measurable value across the entire Panchakarma ecosystem, improving outcomes for all stakeholders
           </p>
         </div>
 
@@ -75,7 +75,7 @@ const BenefitsSection = () => {
                   {benefit.features.map((feature, idx) => (
                     <li key={idx} className="flex items-start gap-3">
                       <div className="w-2 h-2 bg-primary rounded-full mt-2 flex-shrink-0" />
-                      <span className="text-muted-foreground">{feature}</span>
+                      <span className="text-muted-foreground font-medium">{feature}</span>
                     </li>
                   ))}
                 </ul>

@@ -88,7 +88,7 @@ const PatientExperienceSection = () => {
                   </div>
                   <div>
                     <h3 className="text-xl font-semibold mb-3 text-foreground">{experience.title}</h3>
-                    <p className="text-muted-foreground mb-4 leading-relaxed">{experience.description}</p>
+                    <p className="text-muted-foreground mb-4 leading-relaxed font-medium">{experience.description}</p>
                     <ul className="space-y-2">
                       {experience.features.map((feature, idx) => (
                         <li key={idx} className="flex items-center gap-2 text-sm text-muted-foreground">
@@ -133,7 +133,7 @@ const PatientExperienceSection = () => {
                     </div>
                   </div>
                   <h4 className="text-lg font-semibold mb-3 text-foreground">{step.title}</h4>
-                  <p className="text-muted-foreground text-sm leading-relaxed">{step.description}</p>
+                  <p className="text-muted-foreground text-sm leading-relaxed font-medium">{step.description}</p>
                 </div>
               );
             })}
