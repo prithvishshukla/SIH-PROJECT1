@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Calendar, Phone, BookOpen } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -8,18 +9,24 @@ const Header = () => {
       <div className="bg-gradient-healing border-b border-border/30">
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-center gap-4">
-            <Button variant="saffron" className="hover-glow">
-              <Calendar className="w-4 h-4" />
-              Book Appointment
-            </Button>
-            <Button variant="contact" className="hover-lift">
-              <Phone className="w-4 h-4" />
-              Contact Us
-            </Button>
-            <Button variant="learn-more" className="hover-lift">
-              <BookOpen className="w-4 h-4" />
-              Learn More
-            </Button>
+            <Link to="/book-appointment">
+              <Button variant="saffron" className="hover-glow">
+                <Calendar className="w-4 h-4" />
+                Book Appointment
+              </Button>
+            </Link>
+            <Link to="/contact">
+              <Button variant="contact" className="hover-lift">
+                <Phone className="w-4 h-4" />
+                Contact Us
+              </Button>
+            </Link>
+            <Link to="/learn-more">
+              <Button variant="learn-more" className="hover-lift">
+                <BookOpen className="w-4 h-4" />
+                Learn More
+              </Button>
+            </Link>
           </div>
         </div>
       </div>
@@ -39,26 +46,28 @@ const Header = () => {
             </div>
             
             <nav className="hidden md:flex items-center space-x-8">
-              <a href="#features" className="text-foreground hover:text-primary transition-smooth font-medium">
+              <Link to="/features" className="text-foreground hover:text-primary transition-smooth font-medium">
                 Features
-              </a>
-              <a href="#ai-features" className="text-foreground hover:text-primary transition-smooth font-medium">
+              </Link>
+              <Link to="/ai-features" className="text-foreground hover:text-primary transition-smooth font-medium">
                 AI Features
-              </a>
-              <a href="#benefits" className="text-foreground hover:text-primary transition-smooth font-medium">
+              </Link>
+              <Link to="/benefits" className="text-foreground hover:text-primary transition-smooth font-medium">
                 Benefits
-              </a>
-              <a href="#testimonials" className="text-foreground hover:text-primary transition-smooth font-medium">
+              </Link>
+              <Link to="/testimonials" className="text-foreground hover:text-primary transition-smooth font-medium">
                 Testimonials
-              </a>
-              <a href="#about" className="text-foreground hover:text-primary transition-smooth font-medium">
+              </Link>
+              <Link to="/about" className="text-foreground hover:text-primary transition-smooth font-medium">
                 About
-              </a>
+              </Link>
             </nav>
 
-            <Button variant="hero" className="hidden md:flex">
-              Get Started
-            </Button>
+            <Link to="/book-appointment">
+              <Button variant="hero" className="hidden md:flex">
+                Get Started
+              </Button>
+            </Link>
           </div>
         </div>
       </header>
